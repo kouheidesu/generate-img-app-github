@@ -15,7 +15,7 @@
 /node_modules
 /public/build
 /public/hot
-/public/storage
+# /public/storage
 /storage/*.key
 /storage/pail
 /vendor
@@ -23,7 +23,4 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 
-# images フォルダだけ許可する
-!storage/app/public/images/
-!storage/app/public/images/*
 
